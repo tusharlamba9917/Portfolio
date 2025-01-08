@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.navlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.top{
+    list-style-type: none;
+    height: 60px;
+    padding-top: 15px;
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   
+}
+/* @media only screen and (min-width: 860px) {
+  .responsiveheader{
+    display: inline;
+    
+   
+  } */
+.responsiveheader{
+    padding: 20px;
+    width: 100%;
+}
+    
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    /* width: 100%; */
+}
+
+li{
+    display: inline-block;
+}
+li a{
+    color: rgb(214, 22, 22);
+    text-decoration: none;
+   padding: 30px;
+font-size: 20px;
+
+}
+li a:hover {
+    color: yellow;
+}
+#name{
+    font-weight: bold;
+    font-size: 30px;
+}
+img{
+    justify-content: center;
+    width: 40%;
+    border-radius: 50px;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#homeprofile{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#main{
+    margin: auto;
+    padding: auto;
+}
+#article1{
+  text-align: center;
+    font-style: italic;
+    padding: 30px;
+    font-size: 40px;
+    color: #a78080;
+}
+#article2{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+    font-weight: bold;
+}
+#article3{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+#article4{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+#main2{
+    margin: auto;
+    padding: auto;
+}
+#content{
+text-align: center;
+padding: 20px;
+text-decoration-line: underline;
+text-decoration-color: red;
+font-size: 40px;
+}
+#content2{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+#content3{
+   padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+#content4{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.container{
+    height: 20px;
+    background-color: rgb(192,192,192);
+    width: 80%;
+    border-radius: 15px;
+   
+}
+.html, .css, .javascript, .python, .reactjs{
+    text-align: right; 
+    padding-right: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.new{
+    padding: 20px;
+}
+.container2{
+    height: 20px;
+    background-color: rgb(192,192,192);
+    width: 60%;
+    border-radius: 15px;
+}
+.container3{
+    height: 20px;
+    background-color: rgb(192,192,192);
+    width: 50%;
+    border-radius: 15px;
+}
+#project1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 20px;
+    display: block;
+}
+#skills{
+    padding: 20px;
+    width: 60%
+}
+#project2{
+margin: 10px;
+border: 2px dotted red;
+padding: 5px;
+background-color: aqua;
+}
+#name, #email{
+  margin: 20px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.contact{
+   align-items: center;
+}
+#message{
+    margin: 20px;
+    height: 50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#button{
+    
+    margin: 10px 30px ;
+    height: 40px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+   
+
+}
+#button:hover{
+    background-color: red;
+}
+.footer{
+    background-color: greenyellow;
+    height: 70px;
+    margin-top: 0px;
+}
+#last{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#resume{
+    border: 1px solid black ;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+
+#linkedin{
+    border: 1px solid black ;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#github{
+    border: 1px solid black ;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+body{
+    align-items: center;
+}

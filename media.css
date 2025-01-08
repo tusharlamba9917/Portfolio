@@ -1,0 +1,32 @@
+
+    @media screen and (max-width:768){
+        body{
+            font-size: 14px;
+           
+        }
+
+        #homeprofile{
+           margin: 20px 100px 20px 100px;
+        }
+        
+    
+
+        
+    }
+
+
+    @media screen and (max-width:480px){
+        body{
+            font-size:12px;
+           
+        }
+    #homeprofile{
+            margin: 20px 100px 20px 100px;
+    }
+ 
+        
+
+
+       
+
+    }
